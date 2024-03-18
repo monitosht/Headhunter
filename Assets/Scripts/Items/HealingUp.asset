@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11552724f936b2046af0416993b15939, type: 3}
+  m_Name: HealingUp
+  m_EditorClassIdentifier: 
+  itemName: Potion Healing +
+  itemDescription: Potions [F] heal you for one additional health.
+  rarity: {fileID: 11400000, guid: 730098e69174308458fdf261194b810f, type: 2}
+  itemPrice: 100
+  itemSprite: {fileID: 21300000, guid: 84b2ff8c0bbab4046b1ccefc8ac484db, type: 3}
+  itemPrefab: {fileID: 1287185300043425649, guid: f5d461a9adcda7149b1002720d81e2f8,
+    type: 3}
+  itemScript: {fileID: 5637142508357235906, guid: 73cafd21f455b2a4b82b87ff4d1f853f,
+    type: 3}
+  spriteScale: {x: 0.65, y: 0.65}

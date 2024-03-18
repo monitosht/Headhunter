@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2b5b0d06428d324ea102b6e0f9672a0, type: 3}
+  m_Name: Gungeon Input Setup
+  m_EditorClassIdentifier: 
+  LevelGraph: {fileID: 11400000, guid: 22bbd706dc04a964186d0701547c9821, type: 2}
+  UseRandomLevelGraph: 1
+  Stage: 1
+  Stage1LevelGraphs:
+  - {fileID: 11400000, guid: 22bbd706dc04a964186d0701547c9821, type: 2}
+  - {fileID: 11400000, guid: e779be756bebf574ebdee9c2e257f3da, type: 2}
+  Stage2LevelGraphs:
+  - {fileID: 11400000, guid: 0ef968e3d473ffa46b60d650fe903a5e, type: 2}
+  - {fileID: 11400000, guid: 1a284592d0302134bb72a0b9e9a471ef, type: 2}
+  - {fileID: 11400000, guid: a263eda61776eaa40a1b82ff7f96265b, type: 2}
+  RoomTemplates:
+    BasicRoomTemplates:
+    - {fileID: 3390800798792341029, guid: e4892f63cc7a45c4f98519e8db44748c, type: 3}
+    - {fileID: 8373354045639481791, guid: eea6e1c8a81a49949b1947236f444a1d, type: 3}
+    - {fileID: 6180981981340039013, guid: f59afe972673d5b4f9434a09d826c7de, type: 3}
+    - {fileID: 6180981981340039013, guid: f59afe972673d5b4f9434a09d826c7de, type: 3}
+    - {fileID: 7059988163539513014, guid: 53f77293360fdf94284991627cf9b93f, type: 3}
+    - {fileID: 7170233771574198550, guid: 27472f69b276e7644924ecd262dc5625, type: 3}
+    - {fileID: 8373354045639481791, guid: 4eb1c536b99691947ad58b42fde76271, type: 3}
+    - {fileID: 3390800798792341029, guid: e4892f63cc7a45c4f98519e8db44748c, type: 3}
+    - {fileID: 6180981981340039013, guid: f59afe972673d5b4f9434a09d826c7de, type: 3}
+    - {fileID: 7059988163539513014, guid: 53f77293360fdf94284991627cf9b93f, type: 3}
+    - {fileID: 7170233771574198550, guid: 27472f69b276e7644924ecd262dc5625, type: 3}
+    BossFoyersRoomTemplates:
+    - {fileID: 6338651248016267127, guid: 342460e7c7ab48e4ba00056ec57d120b, type: 3}
+    BossRoomTemplates:
+    - {fileID: 5855248644784820082, guid: 7201724c70358ec49baf4245695849ba, type: 3}
+    CorridorRoomTemplates:
+    - {fileID: 811177041180434756, guid: c1b5c38ac88a09e4bb1921c90982e31b, type: 3}
+    - {fileID: 5754014766446460083, guid: b290a2d1259167845a375ee381c9ce93, type: 3}
+    - {fileID: 4886761816653213478, guid: f1ea20dd9e4fd8c4cb28cd2690269faa, type: 3}
+    - {fileID: 4918662368713491466, guid: f009541b6d56c6140bb638510ba2accc, type: 3}
+    - {fileID: 7521161337606586001, guid: 5f5cc33fa155ac444b2dfbea28f3aecf, type: 3}
+    - {fileID: 6732729840625090531, guid: 384f7dee33c0040438b4320fff2f597d, type: 3}
+    EntranceRoomTemplates:
+    - {fileID: 5620706597785849071, guid: d1fa71a2bdcd9594e9c0d096260b540f, type: 3}
+    ExitRoomTemplates:
+    - {fileID: 5420772577586342118, guid: 2ccbb0b7d2f8885449181afbff9ce869, type: 3}
+    HubRoomTemplates:
+    - {fileID: 7715005024736688694, guid: 678645a2f3f5eaf479847bc8793e3923, type: 3}
+    - {fileID: 7715005024736688694, guid: 678645a2f3f5eaf479847bc8793e3923, type: 3}
+    - {fileID: 4821109662598609090, guid: 8c567785ce0af84408d31d13a10939a8, type: 3}
+    RewardRoomTemplates:
+    - {fileID: 4281413025099981253, guid: f937175ba38848d409d16d0d61c1c7ab, type: 3}
+    ShopRoomTemplates:
+    - {fileID: 4281413025099981253, guid: 74d3ac804adcc0641bc5b62ad7be3670, type: 3}
+    SecretRoomTemplates:
+    - {fileID: 5887829826076179551, guid: b9da515873d648245b904f232723740d, type: 3}
+  SecretRoomChance: 0.8
+  SecretRoomDeadEndChance: 0.8

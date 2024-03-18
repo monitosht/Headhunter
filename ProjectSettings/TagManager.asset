@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerBullet
+  - Enemy
+  - Wall
+  - Gun
+  - EnemyBullet
+  - GunHolder
+  - QuestMenu
+  - ScoreManager
+  - FlashManager
+  - LevelFloor
+  - Boss
+  - Item
+  - Tooltips
+  - GameManager
+  - LayerCam
+  - Interactable
+  - PauseManager
+  - PressE
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Bullet
+  - Enemy
+  - Obstacle
+  - EnemyBullet
+  - Rolling
+  - RollableObstacle
+  - Invulnerable
+  - Collectable
+  - Crosshair
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackLight
+    uniqueID: 1715257087
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

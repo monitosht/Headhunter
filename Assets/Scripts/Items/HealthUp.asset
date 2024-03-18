@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11552724f936b2046af0416993b15939, type: 3}
+  m_Name: HealthUp
+  m_EditorClassIdentifier: 
+  itemName: Health +
+  itemDescription: Increases maximum health by 1.
+  rarity: {fileID: 11400000, guid: 379c86b54d3983949baf88bb39380ff7, type: 2}
+  itemPrice: 50
+  itemSprite: {fileID: 21300000, guid: 231b53deb3e17be4f970c1f1556f934f, type: 3}
+  itemPrefab: {fileID: 7806278182056714650, guid: c2980947606e2fa4aaef07bc02b8b758,
+    type: 3}
+  itemScript: {fileID: 5646417712987869825, guid: 58531bac24c8d784db1b7bed14a70ab3,
+    type: 3}
+  spriteScale: {x: 0.7, y: 0.7}

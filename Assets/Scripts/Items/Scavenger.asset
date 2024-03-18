@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11552724f936b2046af0416993b15939, type: 3}
+  m_Name: Scavenger
+  m_EditorClassIdentifier: 
+  itemName: Scavenger
+  itemDescription: Restore 1 charge of your potion after dealing a specific amount
+    of damage.
+  rarity: {fileID: 11400000, guid: 1e72c89f892dca347a0e388b44054893, type: 2}
+  itemPrice: 150
+  itemSprite: {fileID: 21300000, guid: ecf84da398fa4e345b4927cb39fe485e, type: 3}
+  itemPrefab: {fileID: 1287185300043425649, guid: 44f1e0e667e7d884fb45e11df2d1faa2,
+    type: 3}
+  itemScript: {fileID: 945601122104218870, guid: 34dc789b9e4760742b7457bcde706cd4,
+    type: 3}
+  spriteScale: {x: 0.6, y: 0.6}

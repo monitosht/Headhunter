@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04dded18ceb7a7b44a6b2f05ea0c27dc, type: 3}
+  m_Name: GungeonPostProcess
+  m_EditorClassIdentifier: 
+  Enemies:
+  - {fileID: 6546827830399985459, guid: 02d35978d7c84024c9674f7f42bdfa5c, type: 3}
+  - {fileID: 6546827830399985459, guid: 02d35978d7c84024c9674f7f42bdfa5c, type: 3}
+  - {fileID: 1387066544313738787, guid: 902b4fded21f5d04fb7d0f974561f148, type: 3}
+  - {fileID: 1387066544313738787, guid: 902b4fded21f5d04fb7d0f974561f148, type: 3}
+  - {fileID: 8485397170873597785, guid: 5295f20ba5fa68c4ba6a3c1baec60262, type: 3}
+  - {fileID: 8485397170873597785, guid: 5295f20ba5fa68c4ba6a3c1baec60262, type: 3}
+  - {fileID: 4546086702093525085, guid: e3011c6c901c92a40a7c09f7553d3293, type: 3}
+  - {fileID: 4770178765634093177, guid: 8cb4d310fdb9e9b4181ec530aaf2ff70, type: 3}

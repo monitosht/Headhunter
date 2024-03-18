@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11552724f936b2046af0416993b15939, type: 3}
+  m_Name: Sharpshooter
+  m_EditorClassIdentifier: 
+  itemName: Sharpshooter
+  itemDescription: While slowed-down [SHIFT], slightly increases your weapon damage
+    and decreases your weapon deviation.
+  rarity: {fileID: 11400000, guid: 1e72c89f892dca347a0e388b44054893, type: 2}
+  itemPrice: 150
+  itemSprite: {fileID: 21300000, guid: d216135ab8ab9f64e8e11e519d46eccf, type: 3}
+  itemPrefab: {fileID: 1287185300043425649, guid: a1e346456e1aa4145beb237246ad3aff,
+    type: 3}
+  itemScript: {fileID: 4343726037875370441, guid: 944ea88b7b690a947b834e5fdbe6ceb8,
+    type: 3}
+  spriteScale: {x: 0.65, y: 0.65}

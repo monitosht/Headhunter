@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11552724f936b2046af0416993b15939, type: 3}
+  m_Name: Tenacious
+  m_EditorClassIdentifier: 
+  itemName: 'Tenacious '
+  itemDescription: 'Taking damage triggers a temporary buff that increases movespeed
+    for the next few seconds. Passively increases the invulnerability window. '
+  rarity: {fileID: 11400000, guid: 730098e69174308458fdf261194b810f, type: 2}
+  itemPrice: 150
+  itemSprite: {fileID: 21300000, guid: c2157701c698bca4a8dd6ab0ab511f8b, type: 3}
+  itemPrefab: {fileID: 1287185300043425649, guid: 444981e005947bb459c1bcdb5af16de6,
+    type: 3}
+  itemScript: {fileID: 1253051163378594861, guid: 73ba6138887009448982e6c232a69e4f,
+    type: 3}
+  spriteScale: {x: 0.6, y: 0.6}

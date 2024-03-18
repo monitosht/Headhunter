@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe70a53f4b065084cae6a695877f0b32, type: 3}
+  m_Name: GUN05
+  m_EditorClassIdentifier: 
+  gunName: Blaster
+  gunDescription: "A high-tech laster blaster. \nDamage: 0.5 Fire Rate: 0.15 Deviation:
+    Low"
+  fireRate: 0.15
+  damage: 0.5
+  currentAmmo: 20
+  maxAmmo: 20
+  totalAmmo: 300
+  ammoPerBullet: 1
+  reloadTime: 1.25
+  deviation: 0.1
+  holdShoot: 1
+  bulletPrefab: {fileID: 7995066276986600790, guid: b1802be0fb72d244394f0d312b245713,
+    type: 3}
+  sprite: {fileID: 21300000, guid: a6a20567ffe024d4990815a0b93f261b, type: 3}
+  scaleX: -0.4
+  scaleY: 0.4

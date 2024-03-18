@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11552724f936b2046af0416993b15939, type: 3}
+  m_Name: Timelord
+  m_EditorClassIdentifier: 
+  itemName: Timelord
+  itemDescription: While slowed-down [SHIFT], time itself also slows down.
+  rarity: {fileID: 11400000, guid: 730098e69174308458fdf261194b810f, type: 2}
+  itemPrice: 100
+  itemSprite: {fileID: 21300000, guid: fb32afec2516aa74596cfaa77f78ec9f, type: 3}
+  itemPrefab: {fileID: 1488364583245991233, guid: 1ea8f19f9e70c2d4abf8955091576b3a,
+    type: 3}
+  itemScript: {fileID: 789479981350414622, guid: de1a0e4d190ab29468d81e6c351e2e7f,
+    type: 3}
+  spriteScale: {x: 0.6, y: 0.6}
